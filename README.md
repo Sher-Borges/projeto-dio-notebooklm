@@ -118,7 +118,7 @@ O **Preço Teto** representa o valor máximo a pagar por um ativo para garantir 
 
 ---
 
-## Miniguia de Estudo (Entrega Final)
+## Miniguia de Estudo
 
 ### 1. Resumos Estruturados do Assunto
 
