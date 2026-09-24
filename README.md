@@ -102,18 +102,18 @@ O **filtro BESST** é uma ferramenta de triagem setorial para selecionar empresa
 
 ##### Resposta Gerada pelo NotebookLM:
 O **Preço Teto** representa o valor máximo a pagar por um ativo para garantir retorno mínimo de 6% ao ano em proventos (Dividend Yield / JCP).
-
-$$\text{Preço Teto} = \frac{\text{Média do Dividendo por Ação (DPA)}}{0{,}06 \text{ (ou 6\%)}}$$
-*(Dividir por $0{,}06$ equivale a multiplicar a média de dividendos por $16{,}66$)*
-
+ 
+**Preço Teto = Média do Dividendo por Ação (DPA) ÷ 0,06**
+*(Dividir por 0,06 equivale a multiplicar a média de dividendos por 16,66)*
+ 
 **Passo a Passo do Cálculo:**
 1. **Mapear histórico de dividendos:** Média do DPA dos últimos 3 a 5 anos.
-2. **Aplicar taxa de 6%:** Dividir a média por $0{,}06$.
-3. **Decisão:** Cotação $\le$ Preço Teto (comprar); Cotação $>$ Preço Teto (pausar aportes).
-
+2. **Aplicar taxa de 6%:** Dividir a média por 0,06.
+3. **Decisão:** Cotação <= Preço Teto (comprar); Cotação > Preço Teto (pausar aportes).
+ 
 **Exemplo Prático:**
 - DPA Médio (3 anos): **R$ 1,20**
-- Preço Teto: $\frac{\text{R\$ 1,20}}{0{,}06} = \mathbf{\text{R\$ 20,00}}$
+- Preço Teto: **R$ 1,20 ÷ 0,06 = R$ 20,00**
 - Se a cotação estiver em **R$ 17,50** (viável/com margem). Se estiver em **R$ 22,00** (ultrapassa o teto, interromper compras).
 
 ---
@@ -145,7 +145,7 @@ Barsi prioriza empresas maduras que atuam em setores perenes da economia. A tria
 #### Métrica de Compra: Preço Teto e Margem de Segurança
 O filtro BESST é apenas o primeiro passo. A decisão final de compra depende do **Preço Teto**, estabelecido pela fórmula baseada nos ensinamentos de Decio Bazin e Luiz Barsi:
 
-$$\text{Preço Teto} = \frac{\text{DPA Médio (últimos 3 a 5 anos)}}{0{,}06}$$
+> **Preço Teto = DPA Médio (últimos 3 a 5 anos) ÷ 0,06**
 
 - **Margem de Segurança:** Exige um *Dividend Yield* mínimo de 6% ao ano sobre o preço pago (*Yield on Cost*).
 - **Disciplina de Aportes:** Se a cotação de mercado estiver abaixo do Preço Teto, o ativo é considerado descontado. Caso a cotação ultrapasse o Preço Teto, os aportes naquele papel são imediatamente pausados e direcionados para outro ativo da carteira que ofereça melhor oportunidade.
